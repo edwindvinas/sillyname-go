@@ -41,7 +41,7 @@ func GenerateStupidName() string {
 	adjective := lowercaseFirstLetter(randomAdjective())
 	//edwin
 	//return noun1 + adjective + " " + noun2
-	pid := noun1 + adjective + noun2
+	pid := noun1 + adjective + "-" + noun2
 	pid = strings.ToLower(pid)
 	return pid
 }
